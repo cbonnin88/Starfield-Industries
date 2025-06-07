@@ -51,15 +51,15 @@ In this phase, Python was used to load, clean and perform inital exploratory ana
 
 
 # Tools:
-  - Polars : A fast DataFrame library for efficient data manipulation
-  - Poltly Express : A Python library for creating interactive, publication-quality statistical graphics
+  - Polars: A fast DataFrame library for efficient data manipulation
+  - Plotly Express: A Python library for creating interactive, publication-quality statistical graphics
 
 # Phase 2: Data Management & Advanced Analysis with PostgreSQL
 This phase focuses on setting up a relational database to store the HR data and performing more complex analytical queries using SQL.
 
 # Key Activities
   - Database Setup: Created a Database called starfield_HR and an employees table with the appropriate data types for each column
-  - Data Import : Imported the cleaned starfield_HR csv into the employees table using pgadmin4, handling specific date formats (YYYY-MM-DD)
+  - Data Import: Imported the cleaned starfield_HR csv into the employees table using pgadmin4, handling specific date formats (YYYY-MM-DD)
   - SQL Analysis: Executed various SQL queries to gain deeper insights :
     
      - Employee count and average salary by department
